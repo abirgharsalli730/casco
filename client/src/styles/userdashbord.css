@@ -1,0 +1,59 @@
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Style for table header */
+  th {
+    background-color: #0F766E; 
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+    color: #fff;
+    
+
+  }
+  
+  /* Style for table cells */
+  td {
+    text-align: left;
+    padding: 8px;
+    width: 185px !important;
+    border-bottom: 1px solid #ddd; /* Bottom border for each row */
+  }
+  
+  /* Alternate row color */
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+  }
+  
+  /* Hover effect */
+  tr:hover {
+    background-color: #ddd; /* Darker background on hover */
+  }
+
+  select{
+    margin: 0;
+  }
+  
+  .update_user_dashbord {
+    width: 80%;
+    height: 200px;
+    background-color: #80808088;
+    position: absolute;
+    top: 20px;
+  }
+  
+/*for small screes */
+@media (max-width: 600px) {
+ 
+  th, td {
+    width: 100%;
+    border-bottom: none;
+    border-right: 1px solid #ddd;
+    
+  }
+ 
+}

@@ -1,0 +1,28 @@
+Software development Work Products
+
+1	SW Requirements (SWRS)
+
+1.1	Functional Requirements
+
+
+
+Issue Link shall be Type derives
+
+1.2	Non-Functional Requirements
+
+
+
+Issue Link shall be Type derives
+
+2	SW Architecture (SWAD)
+
+
+
+
+
+3	SW Detailed Design (SWDD)
+
+
+
+
+

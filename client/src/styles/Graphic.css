@@ -1,0 +1,19 @@
+/* Add this CSS to your stylesheet */
+.responsive-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height for responsiveness */
+    width: 100%; /* Full width */
+    background-image: url('https://t4.ftcdn.net/jpg/02/36/77/63/240_F_236776308_kQn0MgsaDZgxVS91IH9fsW3cehQ7f5RG.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .diagram {
+    width: 100%;
+    height: 80vh; /* Responsive height */
+    max-width: 1200px; /* Optional max width for larger screens */
+  }
+  

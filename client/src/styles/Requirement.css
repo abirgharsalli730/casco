@@ -1,0 +1,25 @@
+.Requirement {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  
+  .bottom-content {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+  }
+  /* Add this to your CSS file */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}

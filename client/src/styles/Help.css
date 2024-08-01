@@ -1,0 +1,24 @@
+/* Help.css */
+
+.help-container {
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 20px; /* Optional: Add some padding */
+  width: 100%; /* Ensure it takes full width */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.help-content {
+  max-height: 80vh; /* Adjust as needed */
+  overflow-y: auto; /* Enable scrolling within the content */
+}
+
+.help-section {
+  margin-bottom: 20px; /* Space between sections */
+}
+
+.help-image {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 10px 0; /* Space around images */
+}

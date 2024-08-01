@@ -1,0 +1,74 @@
+.card {
+  position: relative;
+  width: 250px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title-container, .card-content-container {
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.card-title-container {
+  background-color: #f8f9fa; /* Light background for title */
+  border-bottom: 1px solid #ccc; /* Separate title from content */
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin: 0; /* Remove margin */
+}
+
+.card-content-container {
+  background-color: #fff; /* White background for content */
+}
+
+.card-content {
+  text-align: left;
+  margin: 0;
+  overflow: hidden; /* Add this to truncate long text */
+  text-overflow: ellipsis; /* Add this to show an ellipsis for long text */
+  white-space: nowrap; /* Add this to prevent wrapping */
+  max-width: 100%; /* Add this to limit the width */
+}
+
+.card-content:hover {
+  text-align: left;
+  overflow: visible; /* Show full text on hover */
+  white-space: normal; /* Allow wrapping on hover */
+  text-overflow: ellipsis; /* Add this to show an ellipsis for long text */
+  
+}
+.card-date {
+  margin-top: 10px; /* Add some space above the date */
+  font-size: 14px; /* Smaller font size for the date */
+  color: #666; /* Lighter color for the date */
+}
+
+.cards-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px 0;
+}
+
+.cards-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+}
+
+.cards-container {
+  -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none;  /* Hide scrollbar for Firefox */
+}
